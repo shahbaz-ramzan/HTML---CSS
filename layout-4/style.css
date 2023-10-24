@@ -1,14 +1,16 @@
-*{
+* {
     background-color: aliceblue;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
-#wrapper-div{
+
+#wrapper-div {
     display: flex;
     flex-direction: column;
     min-height: 100px;
@@ -17,43 +19,47 @@ body{
     margin: auto;
     margin-top: 10px;
 }
-#header-div{
+
+#header-div {
     display: flex;
     flex-direction: row;
     background-color: blue;
-    min-height: 50px;
+    min-height: 100px;
     width: 100%;
 }
-#logo-div{
+
+#logo-div {
     display: flex;
     flex-direction: row;
-    min-height: 50px;
+    min-height: 100px;
     width: 20%;
     background-color: lightgray;
     padding: 2%;
     justify-content: center;
     align-items: center;
 }
-#navbar-div{
+
+#navbar-div {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
-    min-height: 50px;
+    min-height: 100px;
     width: 80%;
     justify-content: center;
     align-items: center;
 }
 
-#row-div{
+#row-div {
     display: flex;
     flex-direction: row;
-    min-height: 100px;
+    min-height: 110px;
     width: 100%;
     justify-content: space-between;
     background-color: orange;
-    
+
 }
-.col-div{
+
+.col-div {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
@@ -63,7 +69,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-#content-box-div{
+
+#content-box-div {
     display: flex;
     flex-direction: row;
     min-height: 100px;
@@ -72,7 +79,8 @@ body{
     margin-top: 10px;
     background-color: orange;
 }
-.boxes-div{
+
+.boxes-div {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
@@ -82,7 +90,8 @@ body{
     align-items: center;
 
 }
-#footer{
+
+#footer {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
