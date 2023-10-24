@@ -48,12 +48,13 @@ body{
 #context-div{
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color:blue;
     min-height: 700px;
     width: 80%;
     margin-left: 10px;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 #header-div{
     display: flex;
@@ -70,10 +71,12 @@ body{
     display:flex ;
     flex-direction: row;
     background-color: lightgray;
-    min-height: 500px;
+    min-height: 490px;
     width: 100%;
     border: 1px solid black;
-
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
 
 }
 #footer-div{
