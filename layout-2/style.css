@@ -1,13 +1,15 @@
-*{
-    margin: 0px ;
+* {
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
-#wrapper-div{
+
+#wrapper-div {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -15,16 +17,18 @@ body{
     background-color: orange;
     margin: auto;
 }
-#header-div{
-   display: flex;
-   flex-direction: row;
-   width: 100%;
-   min-height: 30px;
-   background-color: lightgray;
-   margin-top: 10px;
-   margin: auto;
+
+#header-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 30px;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin: auto;
 }
-#logo-div{
+
+#logo-div {
     display: flex;
     flex-direction: row;
     background-color: lightblue;
@@ -33,9 +37,10 @@ body{
     padding: 2%;
     justify-content: center;
     align-items: center;
-    
+
 }
-#nav-div{
+
+#nav-div {
     display: flex;
     flex-direction: row;
     background-color: green;
@@ -44,9 +49,10 @@ body{
     padding: 2%;
     justify-content: center;
     align-items: center;
-    
+
 }
-#header-banner-div{
+
+#header-banner-div {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
@@ -55,7 +61,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-#textarea-div{
+
+#textarea-div {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
@@ -65,7 +72,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-#content-div{
+
+#content-div {
     display: flex;
     flex-direction: row;
     background-color: red;
@@ -75,9 +83,9 @@ body{
     justify-content: space-between;
 
     border: 2px solid black
-
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
@@ -87,7 +95,8 @@ body{
     align-items: center;
 
 }
-#footer-div{
+
+#footer-div {
     display: flex;
     flex-direction: center;
     background-color: lightgray;

@@ -1,22 +1,25 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
-#wrapper-div{
+
+#wrapper-div {
     display: flex;
     flex-direction: column;
     width: 60%;
-    min-height: 100px ;
+    min-height: 100px;
     background-color: orange;
     margin: auto;
 }
-#logo-div{
+
+#logo-div {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -26,7 +29,8 @@ body{
     align-items: center;
     padding-left: 2%;
 }
-#navbar-div{
+
+#navbar-div {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -36,7 +40,8 @@ body{
     align-items: center;
     margin-top: 10px
 }
-#menu-div{
+
+#menu-div {
     display: flex;
     flex-direction: row;
     background-color: lightgray;
@@ -47,7 +52,8 @@ body{
     margin-top: 10px;
 
 }
-#main-div{
+
+#main-div {
     display: flex;
     flex-direction: row;
     background-color: red;
@@ -57,7 +63,8 @@ body{
     /* align-items: flex-start ; */
     margin-top: 10px;
 }
-#sidebar-div{
+
+#sidebar-div {
     background-color: lightgray;
     display: flex;
     flex-direction: row;
@@ -67,7 +74,8 @@ body{
     align-items: center;
     margin-left: 10px;
 }
-#main-content-div{
+
+#main-content-div {
     display: flex;
     flex-direction: row;
     background-color: lightblue;
@@ -79,7 +87,8 @@ body{
     align-items: center;
 
 }
-#Footer{
+
+#Footer {
     background-color: lightgray;
     margin-top: 10px;
     display: flex;

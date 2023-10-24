@@ -1,0 +1,15 @@
+*{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 80%;
+    background-color: orange;
+    margin: auto;
+    margin-top: 10px;
+}
