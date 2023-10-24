@@ -4,6 +4,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 #wrapper-div{
     display: flex;
     flex-direction: column;
@@ -12,4 +16,79 @@
     background-color: orange;
     margin: auto;
     margin-top: 10px;
+}
+#header-div{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    min-height: 50px;
+    width: 100%;
+}
+#logo-div{
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+    width: 20%;
+    background-color: lightgray;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+}
+#navbar-div{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    min-height: 50px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+#row-div{
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: orange;
+    
+}
+.col-div{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-top: 10px;
+    flex-basis: 22%;
+    justify-content: center;
+    align-items: center;
+}
+#content-box-div{
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: orange;
+}
+.boxes-div{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    min-height: 200px;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    margin-top: 10px;
+    min-height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
