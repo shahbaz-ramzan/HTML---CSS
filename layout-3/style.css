@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+#wrapper-div{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 80%;
+    background-color: orange;
+    margin: auto;
+    margin-top: 10px;
+}
+#logo-div{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 10px;
+    min-height: 30px;
+    width: 100%;
+    padding: 2%;
+    border: 1px solid black;
+}
+#main-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: red;
+    justify-content: space-between;
+    min-height: 700px;
+    width: 100%;
+}
+#navbar-div{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    min-height: 700px;
+    width: 20%;
+    align-items: center;
+    padding-top: 20px;
+}
+#context-div{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    min-height: 700px;
+    width: 80%;
+    margin-left: 10px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+#header-div{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    min-height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#body-area-div{
+    display:flex ;
+    flex-direction: row;
+    background-color: lightgray;
+    min-height: 500px;
+    width: 100%;
+    border: 1px solid black;
+
+
+}
+#footer-div{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    min-height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
