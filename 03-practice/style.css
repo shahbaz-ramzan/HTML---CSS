@@ -31,7 +31,7 @@ body{
 #lower-area-div{
     display: flex;
     flex-direction: row;
-    background-color: purple;
+    /* background-color: purple; */
     width: 100%;
     min-height: 25em;
     margin-top: 20px;
@@ -44,10 +44,11 @@ body{
     background-color: red;
     color: white;
     width: 40%;
-    min-height: 25em;
+    min-height: 24em;
     justify-content: center;
     align-items: center;
     font-weight: bolder;
+    margin-left: 10px;
 }
 
 #upper-right-wrapper-div{
@@ -56,10 +57,28 @@ body{
     background-color: blanchedalmond;
     width: 59%;
     min-height: 25em;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
-#nested-right-upper-div{
+.nested-right-upper-div{
     display: flex;
     flex-direction: row;
+    /* background-color: blue; */
+    width: 100%;
+    min-height: 12.5em;
+    /* margin-top: 10px; */
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 50%;
+    min-height: 6.50em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bolder;
 }
