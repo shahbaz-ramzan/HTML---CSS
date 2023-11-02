@@ -2,5 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color:white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper-div{
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightgray; */
+    margin: auto;
+    width: 80%;
+    min-height:10em ;
+}
+
+#upper-area-div{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    width: 100%;
+    min-height: 25em;
+    margin-top: 10px;
+}
+
+#lower-area-div{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    width: 100%;
+    min-height: 25em;
+    margin-top: 20px;
+
+}
+
+#upper-left-div{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    width: 40%;
+    min-height: 25em;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+#upper-right-wrapper-div{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 59%;
+    min-height: 25em;
+    margin-left: 15px;
+}
+
+#nested-right-upper-div{
+    display: flex;
+    flex-direction: row;
 }
