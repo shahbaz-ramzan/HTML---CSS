@@ -7,15 +7,19 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: rgb(151, 198, 214);
+    width: 80%;
+    min-height: 20em;
+    margin: auto;
 }
 
 #wrapper-div{
     display: flex;
     flex-direction: column;
-    background-color: rgb(151, 198, 214);
+    /* background-color: rgb(151, 198, 214);
     width: 80%;
     min-height: 20em;
-    margin: auto;
+    margin: auto; */
 }
 
 #header-div{
@@ -64,7 +68,7 @@ body{
 #article-div{
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    /* background-color: pink; */
     width: 100%;
     min-height: 15em;
     justify-content: end;
@@ -74,8 +78,36 @@ body{
 
 #image-container-div{
     display: flex;
-    flex-direction: row;
-    background-color: blue;
+    flex-direction: space-around;
+    /* background-color: blue; */
     min-height: 15em;
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.image-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 237, 121);    
+    min-height: 15em;
+    flex-basis: 31%;
+    justify-content: space-around;
+    align-items: center;
+    /* color: white; */
+    margin-left: 20px;
+    
+}
+
+#footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    width: 100%;
+    min-height: 5em;
+    align-items: center;
+    margin-top: 20px;
+}
+
