@@ -35,6 +35,47 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
+    min-height: 30em;
+    /* background-color:red ; */
+}
+
+#aside-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 199, 75);
+    min-height: 30em;
+    width: 30%;
+    margin-top: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#body-div{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    min-height: 30em;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#article-div{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 100%;
     min-height: 15em;
-    background-color:red ;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+
+#image-container-div{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    min-height: 15em;
+    width: 100%;
 }
